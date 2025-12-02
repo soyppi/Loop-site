@@ -1,0 +1,534 @@
+@font-face {
+    font-family: 'robotoblack';
+    src: url(../fonts/roboto-black-webfont.woff2) format('woff2'),
+         url(../fonts/roboto-black-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url(../fonts/roboto-bold-webfont.woff2) format('woff2'),
+         url(../fonts/roboto-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url(../fonts/roboto-light-webfont.woff2) format('woff2'),
+         url(../fonts/roboto-light-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url(../fonts/roboto-medium-webfont.woff2) format('woff2'),
+         url(../fonts/roboto-medium-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url(../fonts/roboto-regular-webfont.woff2) format('woff2'),
+         url(../fonts/roboto-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+
+*::before
+*::after {
+    box-sizing: inherit;
+}
+
+.header {
+    min-height: 800px;
+    background-color: #F9F6F1; 
+    
+}
+
+body {
+    min-width: 1100px;
+    margin: 0;
+    padding: 0;
+    font-family: "robotoregular", "Arial", sans-serif;
+font-size: 14px;
+line-height: 22px;
+font-weight: 400;
+color: #000;
+
+}
+
+
+
+
+.header-menu {
+    min-height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: #F9F6F1;
+}
+
+
+
+
+.section-banner {
+    padding: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    position: relative;
+    max-width: 1100px;
+    margin:  0 auto;
+}
+
+.section_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 56px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.mainmenu_list {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 163px;
+}
+
+.pol-container {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 306px;
+}
+
+.section_wrapper li {
+    display: inline;
+    text-align: center;
+}
+
+.slider_item {
+    min-height: 564px;
+    background: url('../img/running_shoes_PNG5823.png') no-repeat right center;
+    display: flex;
+    padding-top: 166px;
+    justify-content: space-between;
+}
+
+.slider_text {
+    font-size: 30px;
+}
+
+.slider_big-text {
+    font-family: "montserratbold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.button {
+    display: block;
+    width: 240px;
+    padding: 22px 0;
+    text-align: center;
+    background-color: #d7b399;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.slider_item-price {
+    font-family: "montserratbold", "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.slider_price--old {
+    font-size: 24px;
+    text-decoration-line: line-through ;
+}
+
+.slider_price--new {
+    font-size: 42px;
+    color: #d84033;
+}
+
+.slider_wrapper {
+    position: relative;
+}
+
+.slider_button {
+    position: absolute;
+    top: 50%;
+    border: none;
+}
+
+.slider_button--prev {
+    left: -100px;
+}
+
+.slider_button--next {
+    right: -100px;
+}
+
+.pol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery {
+    background-color: #212121;
+    height: 235px;
+    min-width: 1900px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    position: static;
+}
+
+.delivery h3 {
+    
+    width: 409px;
+}
+
+
+.natonenkom {
+    font-weight: lighter;
+}
+
+
+
+.dress_wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 21px;
+    font-family: "montserratbold", "Arial", sans-serif;
+}
+
+.dress_item {
+    width: 275px;
+    height: 236px;
+    text-align: right;
+    position: relative;
+}
+
+.dress_item img {
+    width: 190px;
+}
+
+.dress_item--cream {
+   background-color: #f9f6f1;
+}
+
+.dress_item--grey {
+    background-color: #F4F4F4;
+ }
+
+.men {
+    height: 250px;
+    width: 900px;
+    background: url('..//img/Rectangle\ 3.png') no-repeat right bottom;
+    background-color: #F9F6F1;
+    display: inline-block;
+    justify-content: right;
+   padding-bottom: 20px;
+    
+}
+
+.men-women {
+    display: flex;
+    
+
+}
+
+.men-women h1, h3{
+    margin: 15px;
+    margin-top: 30px;
+    width: 300px;
+}
+
+
+
+
+.women {
+    height: 250px;
+    width: 900px;
+    padding-bottom: 20px;
+    background: url('..//img/Rectangle\ 3.1.png') no-repeat right bottom;
+    background-color: #F4F4F4;
+}
+
+.bmen {
+    background-color: #D7B399;
+    width: 80px;
+    height: 30px;
+    border: 0px;
+    margin-left: 20px;
+} 
+
+.new1 h1 {
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    position: static;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.new {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.card {
+    background: url(../img/Group\ 18.png) no-repeat;
+    display: inline;
+    height: 350px;
+    width: 255px;
+    margin-left: 20px;
+    
+}
+
+.card h4, h3 {
+    width: 245px;
+    text-align: center;
+    height: 30px;
+}
+
+.card h4 {
+    width: 270px;
+    color: #D7B399;
+
+}
+
+.tetka {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.gifts {
+    background-color: #212121;
+    height: 180px;
+    min-width: 1900px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    position: static;
+    margin-top: 148px;
+}
+
+.gifts h1 {
+    display: inline;
+}
+
+input {
+    width: 255px;
+    height: 40px;
+    margin-left: 60px;
+    border: none;
+}
+
+.xalava {
+    height: 40px;
+    width: 185px;
+    margin-left: 35px;
+    background-color: #D7B399;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.sale-gifts h1 {
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    position: static;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.modeli {
+    display: flex;
+    width: 220px;
+    height: 55px;
+    background-color: #D7B399;
+    color: #FFFFFF;
+    border: none;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin:  0 auto;
+    margin-top: 100px;
+    position: relative;
+    max-width: 1100px;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+
+.site-footer {
+    height: 311px;
+    margin-top: 150px;
+    background-color: #212121;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+
+
+.footer-brand .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-brand{
+ margin-left: 60px; 
+}
+
+.footer-column {
+    width: 200px;
+}
+
+
+
+.footer-brand .brand-description {
+    color: #cccccc;
+    max-width: 250px;
+}
+
+
+.footer-columns {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: left;
+}
+
+.footer-column ul {
+    list-style: none;
+    
+}
+
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-column a:hover {
+    color: #ffffff;
+}
+
+
+.footer-social .social-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #333;
+    border-radius: 3px;
+    margin-right: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.privacy-policy {
+    background-color: #F9F6F1;
+    height: 80px;
+    min-width: 1900px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    position: static;
+
+}
+
+.privacy-policy p {
+    color: #333;
+    display: inline-block;
+}
+
+.polit {
+    margin-left: 656px;
+    display: flex;
+    
+}
+
+
+.footer-column ul {
+    padding: 0px;
+}
+
+.footer-column h3 {
+    margin-left: 0px;
+}
+
+.slider {
+    align-items: center;
+    text-align: center;
+}
+
+
